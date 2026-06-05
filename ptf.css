@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
 
 * {
   margin: 0;
@@ -9,7 +9,7 @@
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -21,7 +21,7 @@ body {
   font-family: "Source Code Pro", monospace;
   font-weight: 600;
 }
-.common-p{
+.common-p {
   font-weight: 700;
   font-size: 14px;
   color: rgb(143, 107, 242);
@@ -32,7 +32,6 @@ body {
   margin-top: 15px;
   margin-bottom: 48px;
 }
-
 
 /* ─── NAV ─────*/
 
@@ -68,12 +67,12 @@ nav {
   font-weight: 700;
   font-style: normal;
 }
-.nav-links{
+.nav-links {
   display: flex;
   gap: 50px;
 }
 
-.nav-links a{
+.nav-links a {
   /* padding:0px 30px; */
   text-decoration: none;
   color: rgb(113, 113, 143);
@@ -169,12 +168,13 @@ nav {
   text-decoration: none;
   transition: all 0.2s;
 }
-.vp:hover{
-  background-color:  rgb(125, 93, 214);
+.vp:hover {
+  background-color: rgb(125, 93, 214);
   transform: translateY(-1px);
-  box-shadow: 0 5px 20px rgb(143, 107, 242,0.3),
-              0 5px 30px rgb(143, 107, 242,0.1),
-              0 5px 40px rgba(143, 107, 242, 0);
+  box-shadow:
+    0 5px 20px rgb(143, 107, 242, 0.3),
+    0 5px 30px rgb(143, 107, 242, 0.1),
+    0 5px 40px rgba(143, 107, 242, 0);
 }
 
 .gt {
@@ -187,7 +187,10 @@ nav {
   border: 1px solid rgb(54, 54, 54);
   cursor: pointer;
   text-decoration: none;
-  transition: border-color 0.2s, color 0.2s, transform 0.2s;
+  transition:
+    border-color 0.2s,
+    color 0.2s,
+    transform 0.2s;
 }
 
 .gt:hover {
@@ -224,47 +227,45 @@ nav {
   grid-template-columns: 200px 200px;
   grid-template-rows: 150px 150px;
   gap: 20px;
-  flex-shrink: 0; 
+  flex-shrink: 0;
 }
 .abt-s {
   display: flex;
-  align-items:center;
+  align-items: center;
   gap: 80px;
   margin-top: 10px;
 }
-.abt-b{ 
- display:flex;
- flex-direction: column;
- padding:20px;
- background-color: #0f0f18;
- border-radius:20px;
- border:2px solid rgb(30, 30, 46);
- align-items:start;
- justify-content: center;
+.abt-b {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #0f0f18;
+  border-radius: 20px;
+  border: 2px solid rgb(30, 30, 46);
+  align-items: start;
+  justify-content: center;
 }
-.abt-b:hover{
-  border:  2px solid rgb(143, 107, 242);
+.abt-b:hover {
+  border: 2px solid rgb(143, 107, 242);
   transform: translateY(-1px);
 }
-.b-h{
+.b-h {
   font-size: 36px;
   color: rgb(143, 107, 242);
   font-weight: 900;
 }
-.b-p{
+.b-p {
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 1.4px;
   color: #71718f;
 }
 
-
-
 /* ─── SKILLS ─- */
 
 #skills {
-  background-color: #13131A;
-    padding: 100px 80px 140px;
+  background-color: #13131a;
+  padding: 100px 80px 140px;
 }
 
 .st-card {
@@ -278,28 +279,28 @@ nav {
   width: 20rem;
   display: flex;
   align-items: flex-start;
-  border:  2px solid rgb(30, 30, 46);
+  border: 2px solid rgb(30, 30, 46);
   border-radius: 10px;
   padding: 20px;
   gap: 10px;
-  background-color:#0f0f18;
+  background-color: #0f0f18;
   transition: all 0.2s;
 }
-.skill-card:hover{
-      border:  2px solid rgb(143, 107, 242);
-      transform: translateY(-1px);
+.skill-card:hover {
+  border: 2px solid rgb(143, 107, 242);
+  transform: translateY(-1px);
 }
 
 .skill-icon {
   font-size: 1.6rem;
   padding: 5px;
-  background-color:  #1E1B4B;
+  background-color: #1e1b4b;
   border-radius: 10px;
 }
-.skill-icon-gt{
+.skill-icon-gt {
   font-size: 1.6rem;
   padding: 6px 8px;
-  background-color:  #1E1B4B;
+  background-color: #1e1b4b;
   border-radius: 10px;
 }
 
@@ -324,7 +325,6 @@ nav {
   vertical-align: middle;
 }
 
-
 .bar-bg {
   width: 100%;
   height: 5px;
@@ -343,176 +343,184 @@ nav {
   background-color: rgb(143, 107, 242);
 }
 
-.bar-html { width: 80%; }
-.bar-css  { width: 80%; }
-.bar-js   { width: 40%; }
-.bar-py   { width: 10%; }
-.bar-ai   { width: 10%; }
-.bar-gt   { width: 45%; }
+.bar-html {
+  width: 80%;
+}
+.bar-css {
+  width: 80%;
+}
+.bar-js {
+  width: 40%;
+}
+.bar-py {
+  width: 10%;
+}
+.bar-ai {
+  width: 10%;
+}
+.bar-gt {
+  width: 45%;
+}
 
 /* PROJECTS */
-#projects{
+#projects {
   padding: 100px 80px 140px;
 }
-.p-c{
+.p-c {
   padding: 20px;
-  width:340px;
-  background-color:#0f0f18;
-  border:  2px solid rgb(30, 30, 46);
+  width: 340px;
+  background-color: #0f0f18;
+  border: 2px solid rgb(30, 30, 46);
   border-radius: 12px;
   justify-content: start;
 }
-.p-c:hover{
-  border:  2px solid rgb(143, 107, 242);
+.p-c:hover {
+  border: 2px solid rgb(143, 107, 242);
   transform: translateY(-1px);
 }
 
-.proj-c .p-c:nth-last-child(-n+2) {
-    opacity: 0.5;
-    cursor: not-allowed;
+.proj-c .p-c:nth-last-child(-n + 2) {
+  opacity: 0.5;
+  cursor: not-allowed;
 }
 
-.proj-type{
+.proj-type {
   font-size: 10px;
   display: inline-block;
   padding: 6px 10px;
-  border-radius:25px;
+  border-radius: 25px;
   background-color: #1a182f;
   font-weight: 700;
   color: rgb(140, 100, 240);
   margin-bottom: 5px;
 }
 
-.pro-h{
+.pro-h {
   padding: 10px 0px;
   font-size: 18px;
   font-weight: 700;
 }
-.pro-dis{
+.pro-dis {
   font-size: 14px;
   line-height: 1.4rem;
   text-align: left;
   color: #71718f;
 }
-.pro-skills{
- font-size: 12px;
- padding-top: 15px;
- display: flex;
- gap: 20px;
+.pro-skills {
+  font-size: 12px;
+  padding-top: 15px;
+  display: flex;
+  gap: 20px;
 }
-.pro-tools{
+.pro-tools {
   padding: 4px 10px;
-  background-color:#1e1e2e;
+  background-color: #1e1e2e;
   border-radius: 8px;
   color: #71718f;
 }
-.proj-c{
+.proj-c {
   display: flex;
   gap: 50px;
   flex-wrap: wrap;
 }
 
-.pro-li{
+.pro-li {
   display: flex;
   margin-top: 20px;
   gap: 15px;
 }
-.p-l{
+.p-l {
   font-size: 14px;
   text-decoration: none;
   font-weight: 500;
   color: #71718f;
 }
-.p-l:hover{
+.p-l:hover {
   color: rgb(140, 100, 240);
   text-decoration: underline;
 }
 
-
-
-
-
 /* CONTACT CSS */
 
-#contact{
-  background-color: #13131A;
-  padding: 150px 80px ;
+#contact {
+  background-color: #13131a;
+  padding: 150px 80px;
 }
-.cont{
-   max-width: 600px;
-   text-align: center;
-   margin: 0 auto;
+.cont {
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto;
 }
-.cont-dis{
+.cont-dis {
   font-size: 16px;
   line-height: 1.7;
   margin-bottom: 50px;
   color: #71718f;
 }
-.cont-m{
+.cont-m {
   display: flex;
   justify-content: center;
   gap: 16px;
   flex-wrap: wrap;
 }
 
-.cont-ic{
-  font-size:14px;
+.cont-ic {
+  font-size: 14px;
   justify-content: center;
   text-decoration: none;
   padding: 12px 22px;
-  background-color: #0f0f18;;
+  background-color: #0f0f18;
   color: white;
   border-radius: 10px;
-  border: 1px solid #1e1e2e;;
+  border: 1px solid #1e1e2e;
 }
-.ci{
+.ci {
   font-size: 14px;
   margin-right: 8px;
 }
-.cont-ic:hover{
+.cont-ic:hover {
   color: rgb(143, 107, 242);
-  transition:all 0.2s;
-  border: 1px solid  rgb(143, 107, 242);
+  transition: all 0.2s;
+  border: 1px solid rgb(143, 107, 242);
   transform: translateY(-1px);
 }
 
-   /* FOOTER CSS */
-.foot{
+/* FOOTER CSS */
+.foot {
   display: flex;
   justify-content: space-between;
   padding: 30px 50px;
 }
-.foot-l{
+.foot-l {
   color: rgb(140, 100, 240);
   font-size: 15px;
   margin: 0px 10px;
 }
-.foot-p{
+.foot-p {
   font-size: 0.8rem;
   color: #71718f;
 }
 
 /* ─── LARGE SCREEN (1024px and below) */
 @media (max-width: 1024px) {
- #home{
-  padding: 150px 80px 130px;
- }
- #skills{
-  padding: 150px 80px 130px;
- }
-  .skills{
+  #home {
+    padding: 150px 80px 130px;
+  }
+  #skills {
+    padding: 150px 80px 130px;
+  }
+  .skills {
     padding: 0;
   }
- #projects{
-  padding: 150px 80px 130px;
- }
- #about{
-  padding: 150px 80px 130px;
- }
- #contact{
-  padding: 150px 80px 130px;
- }
+  #projects {
+    padding: 150px 80px 130px;
+  }
+  #about {
+    padding: 150px 80px 130px;
+  }
+  #contact {
+    padding: 150px 80px 130px;
+  }
 
   .name {
     font-size: 55px;
@@ -541,18 +549,17 @@ nav {
     width: 300px;
     padding: 25px 30px;
   }
-  .proj-c{
+  .proj-c {
     gap: 50px;
   }
-  .pro-skills{
+  .pro-skills {
     flex-wrap: wrap;
     gap: 15px;
   }
 }
 
-
 @media (max-width: 768px) {
-  .logo{
+  .logo {
     font-size: 16px;
   }
   nav {
@@ -564,7 +571,7 @@ nav {
   }
 
   #home {
-    padding: 100px 60px 160px;
+    padding: 100px 50px 160px;
   }
   .name {
     font-size: 48px;
@@ -573,25 +580,26 @@ nav {
     margin: 60px 0px 60px;
   }
   .internship {
-  display: flex;
-  gap: 10px;
-  font-size: 10px;
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  padding: 2px 10px;
-  border: 2px solid rgb(69, 69, 132);
-  border-radius: 50px;
-  align-items: center;
-  background-color: rgb(21, 19, 38);
+    display: flex;
+    gap: 10px;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    padding: 2px 10px;
+    border: 2px solid rgb(69, 69, 132);
+    border-radius: 50px;
+    align-items: center;
+    background-color: rgb(21, 19, 38);
   }
- .pulse {
-  width: 5px;
-  height: 5px;
+  .pulse {
+    width: 5px;
+    height: 5px;
   }
-  .vp,.gt{
-  font-size: 14px;
-  padding: 15px 20px;
-  font-weight: 600;
+  .vp,
+  .gt {
+    font-size: 14px;
+    padding: 15px 20px;
+    font-weight: 600;
   }
 
   .sm-intro {
@@ -604,7 +612,7 @@ nav {
   }
 
   #about {
-   padding: 100px 60px 160px;
+    padding: 100px 50px 160px;
   }
   .abt-s {
     flex-direction: column;
@@ -618,7 +626,7 @@ nav {
   .abt-b {
     padding: 16px;
   }
-  .abt-con{
+  .abt-con {
     margin: 0px 0px 20px;
   }
 
@@ -632,43 +640,49 @@ nav {
     gap: 2rem;
   }
 
-
   #skills {
-    padding: 100px 60px 160px;
+    padding: 100px 50px 160px;
   }
-  .skills{
+  .skills {
     padding: 0;
   }
   #projects {
-    padding: 100px 60px 160px;
+    padding: 100px 50px 160px;
   }
   .p-c {
     width: 100%;
   }
-  .proj-c{
+  .proj-c {
     gap: 50px;
   }
 
   #contact {
-    padding: 100px 60px 160px;
+    padding: 100px 50px 160px;
   }
 
-
-  .foot{
-      padding: 25px 30px;
-      display: flex;
-      flex-direction: row;
+  .foot {
+    padding: 25px 30px;
+    display: flex;
+    flex-direction: row;
   }
-  .foot-p{
+  .foot-p {
     font-size: 12px;
   }
 }
-
+@media (max-width: 570px) {
+  .logo {
+    font-size: 14px;
+  }
+  .nav-links {
+    font-size: 12px;
+    gap: 10px;
+  }
+}
 
 @media (max-width: 480px) {
- .logo{
-  font-size: 16px;
- }
+  .logo {
+    font-size: 16px;
+  }
   .nav-links {
     display: none;
   }
@@ -676,18 +690,18 @@ nav {
     padding: 100px 30px 50px;
   }
 
-.internship {
-  display: flex;
-  gap: 10px;
-  font-size: 10px;
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  padding: 2px 10px;
-  border: 2px solid rgb(69, 69, 132);
-  border-radius: 50px;
-  align-items: center;
-  background-color: rgb(21, 19, 38);
-}
+  .internship {
+    display: flex;
+    gap: 10px;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    padding: 2px 10px;
+    border: 2px solid rgb(69, 69, 132);
+    border-radius: 50px;
+    align-items: center;
+    background-color: rgb(21, 19, 38);
+  }
   .name {
     margin: 50px 0px;
     font-size: 40px;
@@ -707,9 +721,10 @@ nav {
   .intro-but {
     flex-direction: column;
   }
-  .vp, .gt {
+  .vp,
+  .gt {
     text-align: center;
-    margin: 0px auto ;
+    margin: 0px auto;
     width: 70%;
   }
 
@@ -730,14 +745,14 @@ nav {
   .skills {
     padding: 60px 20px;
   }
-  
-  #skills{
+
+  #skills {
     padding: 100px 40px 160px;
   }
-  .skills{
+  .skills {
     padding: 0;
   }
-  .st-card{
+  .st-card {
     gap: 30px;
   }
 
@@ -748,7 +763,7 @@ nav {
     flex-wrap: wrap;
     gap: 8px;
   }
-  .proj-c{
+  .proj-c {
     gap: 50px;
   }
 
@@ -763,17 +778,80 @@ nav {
     width: 200px;
     text-align: center;
   }
-  
-  .foot{
-      padding: 25px 30px;
-      display: flex;
-      flex-direction: row;
+
+  .foot {
+    padding: 25px 30px;
+    display: flex;
+    flex-direction: row;
   }
-  .foot-p{
+  .foot-p {
     font-size: 12px;
   }
-  .foot-l{
+  .foot-l {
     display: none;
   }
 }
 
+@media (max-width: 375px) {
+  .name {
+    font-size: 33px;
+    line-height: 1.4;
+  }
+  .sm-intro {
+    font-size: 16px;
+    letter-spacing: 0.6px;
+  }
+  .internship {
+    gap: 10px;
+    font-size: 8px;
+    padding: 2px 8px;
+  }
+  #about {
+    padding: 80px 30px 100px;
+  }
+  #skills {
+    padding: 80px 40px 100px;
+  }
+  #projects {
+    padding: 80px 40px 100px;
+  }
+  #contact {
+    padding: 80px 30px 100px;
+  }
+  .foot-p {
+    font-size: 5px;
+  }
+}
+@media (max-width: 320px) {
+  .name {
+    font-size: 33px;
+    line-height: 1.4;
+  }
+  .sm-intro {
+    font-size: 16px;
+    letter-spacing: 0.6px;
+  }
+  .internship {
+    gap: 10px;
+    font-size: 8px;
+    padding: 2px 8px;
+  }
+  #about {
+    padding: 80px 30px 100px;
+  }
+  #skills {
+    padding: 80px 40px 100px;
+  }
+  #projects {
+    padding: 80px 40px 100px;
+  }
+  .p-c {
+    padding: 20px;
+  }
+  #contact {
+    padding: 80px 30px 100px;
+  }
+  .foot-p {
+    font-size: 8px;
+  }
+}
